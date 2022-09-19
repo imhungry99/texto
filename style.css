@@ -36,8 +36,7 @@ nav {
 }
 
 main {
-  background: url("assets/bg.jpg") no-repeat center center;
-  background-size: cover;
+  background-color: #fff;
 }
 
 .nav-list {
