@@ -6,7 +6,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: cyan;
 }
  
 /*hungry legal*/
@@ -37,8 +36,7 @@ nav {
 }
 
 main {
-  background: url("bg.jpg") no-repeat center center;
-  background-size: cover;
+  background-color: cyan;
   height: 92vh;
 }
 
