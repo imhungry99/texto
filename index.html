@@ -11,7 +11,7 @@
   <body>
     <header>
       <nav>
-        <a class="logo" href="/">Trabalinho</a>
+        <a class="logo" href="/">Trabalho de campo</a>
         <div class="mobile-menu">
           <div class="line1"></div>
           <div class="line2"></div>
@@ -19,29 +19,36 @@
         </div>
         <ul class="nav-list">
           <li><a href="https://imhungry99.github.io/texto/">Início</a></li>
-          <li><a href="#">Tarefas</a></li>
-          <li><a href="#">texto geral</a></li>
+          <li><a href="https://imhungry99.github.io/texto/afazer.html">Tarefas</a></li>
+          <li><a href="https://imhungry99.github.io/texto/textoprimaria.html">texto geral</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <div class="intro">
-        <h2>Trabalinho de campo (:</h2>
-        <h3>feito por hungry</h3>
-      </div>
-      <div class="bloquinhos">
-        <div class="oqfazer">
-          <h3> n sabe oq fazer? </h3>
-          <a class="botão" href="./afazer.html">Clica aqui</a>
+      <div class="tudo">
+        <div class="intro">
+          <h2>Trabalho de campo</h2>
+          <h3>feito por hungry</h3>
         </div>
-        <div class="texto"> 
-          <h3>quer ver oq temos ate agr?</h3>
-          <a class="botão" href="./textoprimaria.html"> Clique aqui</a>
+        <div class="bloquinhos">
+          <div class="oqfazer">
+            <h3> n sabe oq fazer? </h3>
+            <a class="botão" href="./afazer.html">Clica aqui</a>
+          </div>
+          <div class="texto"> 
+            <h3>quer ver oq temos ate agr?</h3>
+            <a class="botão" href="./textoprimaria.html"> Clique aqui</a>
+          </div>
         </div>
       </div>
     </main>
-    <!--hungry legal-->
     <style>
+      .tudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
       .intro {
         margin-top: 40px;
         line-height: 30px;
@@ -49,8 +56,7 @@
         justify-content: center;
       }
       .bloquinhos {
-        display: flex;  background-size: cover;
-
+        display: flex;
         flex-direction: row;
         text-align: center;
         justify-content: center;
@@ -60,11 +66,13 @@
         background-color: white;
         border-radius: 20px;
         color: black;
+        margin: 15px;
       }
       .texto {
         background-color: white;
         border-radius: 20px;
         color: black;
+        margin: 15px;
       }
 
     </style>
