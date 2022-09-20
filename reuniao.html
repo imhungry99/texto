@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho de campo Admin</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a class="logo" href="/">Trabalho de campo</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="./">Início</a></li>
+          <li><a href="./afazer.html">Tarefas</a></li>
+          <li><a href="./reuniao.html">Reuniões</a></li>
+          <li><a href="./textoprimaria.html">texto geral</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <div class="reuniaozinha">
+            <div class="afazer">
+                <h1>Reuniões que vem por ai:</h1>
+                <div class="caixinhas">
+                    <div class="reuniao">
+                        <h2>reunião para o dia 00/00</h2>
+                        <h3>Para participar da reunião </h3>
+                        <a href="" >clique aqui</a>
+                    </div>
+                    <div class="reuniao">
+                        <h2>reunião para o dia 00/00</h2>
+                        <h3>Para participar da reunião </h3>
+                        <a href="" >clique aqui</a>
+                    </div>
+                </div>
+            </div>
+            <div class="feitas">
+                <h1>Reuniões já feitas:</h1>
+                <div class="caixinhas">
+                    <div class="reuniao">
+                        <h2>reunião do dia 26/08</h2>
+                        <h3>Para ir a sala da reunião </h3>
+                        <a href="https://meet.google.com/bng-mrqb-kse" >clique aqui</a>  
+                    </div>
+                    <div class="reuniao">
+                        <h2>reunião do dia 06/09</h2>
+                        <h3>Para ir a sala da reunião </h3>
+                        <a href="https://meet.google.com/mhy-ckdy-bjh" >clique aqui</a>
+                    </div>
+                    <div class="reuniao">
+                        <h2>reunião do dia 13/09</h2>
+                        <h3>Para ir a sala da reunião </h3>
+                        <a href="https://meet.google.com/avk-cuuh-ges" >clique aqui</a>
+                    </div>
+                    <div class="reuniao">
+                        <h2>reunião do dia 15/09</h2>
+                        <h3>Para ir a sala da reunião </h3>
+                        <a href="https://meet.google.com/sri-yvoj-vbv" >clique aqui</a>
+                    </div>
+                    <!--                    
+                        <div class="reuniao">
+                        <h2>reunião do dia 00/00</h2>
+                        <h3>Para ir a sala da reunião </h3>
+                        <a href="" >clique aqui</a>
+                        </div>
+                     -->
+                </div>
+            </div> 
+        </div>
+    </main>
+    <style>
+        .reuniaozinha {
+            text-align: center;
+
+        }
+
+        .caixinhas {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .reuniao {
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 250px;
+            height: 170px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .reuniao a {
+            margin-top: 15px;
+            background-color: indianred;
+            border-radius: 20px;
+            width: 70px;
+        }
+
+        .afazer {
+            margin: 20px;
+        }
+
+        .feitas {
+            margin: 20px;
+            margin-top: 50px;
+        }
+    </style>
+    <script src="mobile-navbar.js"></script>
+</body>
+</html>

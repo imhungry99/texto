@@ -11,16 +11,17 @@
   <body>
     <header>
       <nav>
-        <a class="logo" href="/">Tiger Codes</a>
+        <a class="logo" href="/">Trabalho de campo</a>
         <div class="mobile-menu">
           <div class="line1"></div>
           <div class="line2"></div>
           <div class="line3"></div>
         </div>
         <ul class="nav-list">
-            <li><a href="https://imhungry99.github.io/texto/">Início</a></li>
-            <li><a href="https://imhungry99.github.io/texto/afazer.html">Tarefas</a></li>
-            <li><a href="https://imhungry99.github.io/texto/textoprimaria.html">texto geral</a></li>
+            <li><a href="./">Início</a></li>
+            <li><a href="./afazer.html">Tarefas</a></li>
+            <li><a href="./reuniao.html">Reuniões</a></li>
+            <li><a href="./textoprimaria.html">texto geral</a></li>
           </ul>
       </nav>
     </header>
@@ -30,8 +31,8 @@
                 <div class="arthur">
                     <h1>Arthur</h1>
                     <div class="afazer">
-                        <h3>Você deve fazer:</h3>
-                        <h3>ajudar a bia kathleen</h3>
+                        <h3>Você deve fazer: <br>
+                            <font size=+2>Ajudar a bia kathleen</font> </h3>
                     </div>
                 </div>
             </div>
@@ -40,8 +41,8 @@
                 <div class="guilherme">
                     <h1>guilherme</h1>
                     <div class="afazer">
-                        <h3>Você deve fazer:</h3>
-                        <h3>ajudar a bia kathleen</h3>
+                        <h3>Você deve fazer: <br>
+                            <font size=+2>Ajudar a bia kathleen</font> </h3>
                     </div>
                 </div>
             </div>
@@ -50,8 +51,8 @@
                 <div class="bia">
                     <h1>Bia Kathleen</h1>
                     <div class="afazer">
-                        <h3>Você deve fazer:</h3>
-                        <h3>um texto juntando todos os outros</h3>
+                        <h3>Você deve fazer: <br>
+                            <font size=+2>Juntar todos os texto em apenas 1</font> </h3>
                     </div>
                 </div>
             </div>
@@ -60,8 +61,8 @@
                 <div class="panzera">
                     <h1>Bia panzera</h1>
                     <div class="afazer">
-                        <h3>Você deve fazer:</h3>
-                        <h3>nada por enquanto</h3>
+                        <h3>Você deve fazer: <br>
+                            <font size=+2>nada por enquanto</font> </h3>
                     </div>
                 </div>
             </div>
@@ -70,18 +71,17 @@
                 <div class="july">
                     <h1>July</h1>
                     <div class="afazer">
-                        <h3>Você deve fazer:</h3>
-                        <h3>nada por enquanto</h3>
-                    </div>
+                        <h3>Você deve fazer: <br>
+                            <font size=+2>nada por enquanto</font> </h3>                    </div>
                 </div>
             </div>
     
             <div class="caixinha">
-                <div class="souto">
+                <div class="textinho">
                     <h1>Souto</h1>
                     <div class="afazer">
-                        <h3>Você deve fazer:</h3>
-                        <h3>nada por enquanto</h3>
+                        <h3>Você deve fazer: <br>
+                        <font size=+2>nada por enquanto</font> </h3>
                     </div>
                 </div>
             </div>
@@ -94,20 +94,26 @@
             border-radius: 20px;
             background-color: white;
             text-align: center;
+            width: 250px;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
             justify-content: center;
         }
+
         .participantes {
             display: flex;
             flex-direction: row;
             text-align: center;
             justify-content: space-around;
             margin-top: 20px;
+            flex-wrap: wrap;
         }
-        
-        .arthur {
-            margin: 20px;
-            
+
+        .afazer {
+            margin-top: 40px;
         }
+
     </style>
     <script src="mobile-navbar.js"></script>
   </body>
